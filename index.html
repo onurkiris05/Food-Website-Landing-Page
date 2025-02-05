@@ -26,7 +26,7 @@
           <ion-icon name="bag-outline"></ion-icon>
           <span class="number">4</span>
         </div>
-        <div class="menu">
+        <div class="menu-mobile">
           <ion-icon name="ellipsis-vertical-outline"></ion-icon>
         </div>
       </div>
@@ -39,11 +39,11 @@
     <main>
       <div class="banner-container">
         <div class="content">
-          <h1>Food <ion-icon name="heart-half-outline"></ion-icon></h1>
+          <h1>Food<ion-icon name="heart-half-outline"></ion-icon></h1>
           <h2>Lovers</h2>
         </div>
-        <div class="img-card">
-          <div class="food">
+        <div class="food-card">
+          <div class="image">
             <img src="/assets/images/food-1.jpeg" class="food-img" alt="" />
           </div>
           <div class="description">
@@ -60,11 +60,34 @@
             <span class="price">$23.99</span>
           </div>
         </div>
-        <button class="btn-learn-more">
-          Learn More <ion-icon name="search-circle-outline"></ion-icon>
-        </button>
+        <div class="btn-container">
+          <button class="btn btn-learn-more">
+            Learn More <ion-icon name="search-circle-outline"></ion-icon>
+          </button>
+          <button class="btn btn-order"><ion-icon name="bag-add-outline"></ion-icon></button>
+        </div>
+        <div class="selection-container">
+          <div class="circle">
+            <div class="options" data-id="1"><img src="/assets/images/food-1.jpeg" alt="" /></div>
+            <div class="options" data-id="2"><img src="/assets/images/food-2.jpeg" alt="" /></div>
+            <div class="options" data-id="3"><img src="/assets/images/food-3.jpeg" alt="" /></div>
+          </div>
+          <h1>Healty Life</h1>
+        </div>
       </div>
     </main>
+    <footer>
+      <div class="social-container">
+        <ul>
+          <li><ion-icon name="logo-facebook"></ion-icon></li>
+          <li><ion-icon name="logo-instagram"></ion-icon></li>
+          <li><ion-icon name="logo-youtube"></ion-icon></li>
+        </ul>
+      </div>
+      <div class="cr-container">
+        <p>&copy; 2025 Copyright <span>Onur Studio.</span> All Rights Reserved.</p>
+      </div>
+    </footer>
 
     <script
       type="module"
